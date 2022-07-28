@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: rgb(190, 215, 243);
+    align-items: center;
+}
+main{
+    position: absolute;
+    top: 15vh;
+    height: 70vh;
+    width: 100%;
+    text-align: center;
+}
+.area_form{
+    margin-top: 20vh;
+    text-align: center;
+    height: 35vh;
+    width: 30vw;
+    margin-left: 32vw;
+}
+
+.area_form .form{
+    position: absolute;
+    display: block;
+}
+
+fieldset{
+    width: 30vw;
+    height: 35vh;
+    background-color: rgb(12, 12, 102);
+    border-radius: 15px;
+}
+legend{
+    font-weight:900;
+    font-size: 30px;
+    color:#fff;
+    text-shadow: 3px 3px 5px rgb(12, 12, 102);
+    -webkit-text-stroke-width: 1.5px; 
+    -webkit-text-stroke-color: rgb(12, 12, 102);
+}   
+.campo_email
+{
+    margin-top: 30px;
+    margin-left: 40px;
+    width: 250px;
+    height: 35px;
+    border-radius: 10px;
+}
+
+.campo_senha{
+    margin-top: 18px;
+    margin-left: 37px;
+    width: 250px;
+    height: 35px;
+    border-radius: 10px;
+}
+label{
+    font-size: 18px;
+    color: #fff;
+}
+
+.button_submit{
+    background-color: crimson;
+    margin-right: 20px;
+    margin-top: 15px;
+    width: 80px;
+    height: 50px;
+    border-radius: 12%;
+    box-shadow: 3px 3px grey;
+    font-weight: bold;
+    color: #fff;
+    float: right;
+}
+.button_submit:hover{
+    background-color: rgb(0, 211, 211);
+    cursor: pointer;
+}
+.cadastre{
+margin-left: 38.5vw;
+margin-top: 20px;
+background-color: rgba(108, 151, 201, 0.774);
+width: 17vw;
+padding: 10px;
+border-radius: 12px;
+}

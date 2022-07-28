@@ -1,0 +1,71 @@
+<html>
+    <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../CSS/cadastro.css">
+    <link rel="icon" type="imagem/png" href="../img/Icon.png" />
+    <title>Remusic Inclusão</title>
+    <script>
+        function recarrega(){
+            document.location.reload(true)
+        }
+    </script>
+</head>
+<body>
+<header>
+
+<div class="top-bar-menu">
+        <div class="texto-img">
+    <p>Olá, seja bem vindo ao Remusic. Preencha esse formulário para criar sua conta e poder ter seu próprio repertório!</p>
+    </div>
+</div>
+
+</header>
+<div class="linha"></div>
+<main>
+
+<div class="setor">
+    <a href="index.php"><img src="../img/seta.png" class="seta"></a>
+    <div class="area_form">
+<form action="../PHP/cadastro.php" id="form" class="form" method="POST">
+<fieldset>
+    <legend>Formulário Cadastro</legend>
+    <div class="top-label"><label>Nome da Conta:</label><input class="campo_nome" name="nome" type="text"><br></div>
+    <div class="top-label"><label>Email:</label><input class="campo_email" name="email" type="text"><br></div>
+    <div class="top-label"><label>Senha:</label><input class="campo_senha" name="senha" type="password"></div>
+    
+    <div class="button-container"><input class="button_submit" type="reset" value="Limpar">
+    <input class="button_submit" type="submit" value="Salvar">
+    </div></div>
+
+</div><br>
+</fieldset>
+</form>
+<a href="login.html"><input class="button_back" type="button" value="Voltar"></a>
+<div>
+    
+</div>
+</main>
+<footer class="rodape">
+
+    <div class="rodape-img">
+        <img src="../img/icon.png" width="76" height="76">
+    </div>
+    
+    <div class="rodape-txt">
+        <p>@2021 - REMUSIC - Seu Repertório Sempre junto à Você! - Todos os direitos reservados.</p>
+        
+        <div class="rodape-icons">
+    <a href="https://www.instagram.com/lucas.picoli/"><img src="../img/insta.png" class="icons"></a>
+    <a href="https://twitter.com/OPicoleh"><img src="../img/tt.png" class="icons"></a>
+    <a href=""><img src="../img/mail.png" class="icons"></a>
+    <a href="https://www.youtube.com/channel/UCKmK9bhq4_rk_KwWDa5ORzA"><img src="../img/yt.png" class="icons"></a>
+    </div>
+    
+    </div>
+    
+    
+    
+    </footer>
+
+</body></html>

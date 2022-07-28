@@ -1,0 +1,198 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* --     Inicio     Pagina     -- */
+/* -- Imagem e Menu --> (Header) -- */
+
+.top-bar-menu{
+    width: 100%;
+    height: 95vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background:url('../img/teste1.jpg');
+    position: absolute;     
+}
+
+.menu{
+    width: 1350px;
+align-items: center;
+justify-content: center;
+margin-bottom: 500px;
+}
+.menu li select{
+    font-size: 14pt;
+    height: 50px;
+    text-align: center;
+    padding: 14px 55px;
+    color: rgb(88, 88, 88);
+    text-decoration: none;
+}
+
+.menu li select:hover{
+    background-color: rgb(221, 220, 220);
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:#fff;
+    font-size: 14pt;
+    box-shadow: 20px 20px 10px rgba(0,0,0,0.5);
+    }
+
+    ul li:first-child{
+        float: left;
+    }
+
+    .menu li{
+        float:right;
+        position: relative;
+        }
+        li a {
+        display: block;
+        color: rgb(88, 88, 88);
+        text-align: center;
+        padding: 14px 55px;
+        text-decoration: none;
+        }
+        li a:hover {
+        background-color: rgb(221, 220, 220);
+        }
+
+        .texto-img{
+            background-color: rgb(230, 230, 230);
+            position: absolute;
+            top: 85vh;
+            width: 100%;
+            height: 15vh;
+        }
+        .texto-img p{
+            padding: 4vh;
+            font-size: 22px;
+            color: rgb(80, 80, 80);
+        }
+
+    /* -- Fim do Header -- */
+
+    /* -- Começo Do Body -- */
+        main{
+            top: 100vh;
+            position: absolute;
+        }
+
+        .linha{
+            width: 98.93vw;
+            height: 0.5vh;
+            background-color: rgb(0, 0, 0);
+            text-align: center;
+            
+        }
+
+        .separador{
+            border: 5px solid rgb(0, 0, 0);
+            border-style: hidden;
+            border-right-style: solid;
+            margin-left: 25px;
+        }
+
+        .setor{
+            width: 100%;
+            height: 85vh;
+            background-color: rgb(190, 215, 243);
+            position: absolute;
+
+        }
+
+
+        .engloba-img-txt{
+            display: flex;
+           /* border: 1px solid rgb(255, 0, 0);*/
+            margin: 50px;
+        }
+
+        .img-container img{
+            height: 249px;
+            width: 261px;
+            margin-left:50px ;
+            padding: 20px;
+            display: flex;
+            float: left;
+            /*border: 1px solid black;*/
+            
+        }
+
+        .txt-container{
+            padding: 10px;
+            width: 65vw;
+            /*border: 1px solid rgb(0, 255, 0);*/
+            margin-left: 30px;
+            float: right;
+            font-size: 22px;
+
+        }
+
+        .button-container{
+            height: 13vh;
+            margin-top: 50px;
+            /*border: 1px solid black;*/
+            text-align: center;
+        }
+
+        .button-adc{
+            border: none;
+            background-color: rgb(252, 173, 82);
+            color: rgb(0, 0, 0);
+            padding: 32px 35px;
+            text-align: center;
+            text-decoration: none;
+            font-size: 22px;
+            margin: 4px 2px;
+            border-radius: 5%;
+            cursor: pointer;
+
+        }
+
+        .button-adc:hover{
+            background-color: rgb(219, 150, 71);
+            color: rgb(27, 27, 27);
+            box-shadow: 5px 5px 2.5px rgba(122, 122, 122, 0.5);
+        }
+
+        .rodape{
+            position: relative;
+            top: 185vh;
+            height: 12vh;
+            width: 100%;
+            background-color: rgb(12, 12, 102);
+        }
+
+        .rodape-img img{
+            padding: 10px;
+            margin-top: 1vh;
+        }
+        .rodape-txt{
+            color: rgb(230, 230, 230);
+            margin-top: -15px;
+            text-align: center;
+        }
+
+        .rodape-icons{
+            margin-right: 15px;
+        }
+
+        .rodape-icons img{
+            float: right;
+            padding: 4px;
+            margin-top: -4vh;
+            width: 38px;
+            height: 38px;
+        }

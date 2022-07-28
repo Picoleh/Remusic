@@ -1,0 +1,74 @@
+<html>
+    <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../CSS/pesquisado.css">
+    <link rel="icon" type="imagem/png" href="../img/Icon.png" />
+    <title>Remusic Inclusão</title>
+    <script>
+        function recarrega(){
+            document.location.reload(true)
+        }
+    </script>
+</head>
+<body>
+<header>
+
+<div class="top-bar-menu">
+<img src="../img/lupa.png" alt="deu ruim" >
+        <div class="texto-img">
+    <p><b> Pesquise suas músicas através da barra de pesquisa abaixo, </b>e logo em seguida faça o que quiser 
+        com elas, edite-as, exclua-as ou simplesmente acesse suas informações</p>
+    </div>
+</div>
+
+</header>
+<div class="linha"></div>
+<main>
+
+<div class="setor">
+    <a href="index.php"><img src="../img/seta.png" class="seta"></a>
+    <div class="area_form">
+<form action="../PHP/consultar.php" id="form" class="form" method="POST">
+<fieldset>
+    <legend>Formulário Pesquisa</legend>
+    <div class="top-label"><input class="campo_nome" name="expressao" type="text"><input class="button_submit"
+        type="submit" value="Pesquisar"><br></div>
+    <label class="escolha">Escolha uma das seguintes categorias:</label><br>
+    <input type="radio" id="nome" name="op" value="nome" checked>
+    <label for="nome" class="lNome">Nome da música</label><br>
+    <input type="radio" id="genero" name="op" value="genero">
+    <label for="genero" class="lGenero">Gênero</label><br>
+    <input type="radio" id="instrumento" name="op" value="instrumento">
+    <label for="instrumento" class="lInstru">Instrumento</label>
+</div><br>
+</fieldset>
+</form>
+
+<a href="index.php"><input class="button_back" type="button" value="Voltar"></a>
+
+</div>
+</main>
+<footer class="rodape">
+
+    <div class="rodape-img">
+        <img src="../img/icon.png" width="76" height="76">
+    </div>
+    
+    <div class="rodape-txt">
+        <p>@2021 - REMUSIC - Seu Repertório Sempre junto à Você! - Todos os direitos reservados.</p>
+        
+        <div class="rodape-icons">
+    <a href="https://www.instagram.com/lucas.picoli/"><img src="../img/insta.png" class="icons"></a>
+    <a href="https://twitter.com/OPicoleh"><img src="../img/tt.png" class="icons"></a>
+    <a href=""><img src="../img/mail.png" class="icons"></a>
+    <a href="https://www.youtube.com/channel/UCKmK9bhq4_rk_KwWDa5ORzA"><img src="../img/yt.png" class="icons"></a>
+    </div>
+    
+    </div>
+    
+    
+    
+    </footer>
+
+</body></html>

@@ -1,0 +1,88 @@
+<html>
+    <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../CSS/adiciona.css">
+    <link rel="icon" type="imagem/png" href="../img/Icon.png" />
+    <title>Remusic Inclusão</title>
+    <script>
+        function recarrega(){
+            document.location.reload(true)
+        }
+    </script>
+</head>
+<body>
+<header>
+
+<div class="top-bar-menu"><a href="index.php"><img src="../img/seta.png" class="seta"></a>
+    <nav>
+<div class="menu">
+    <ul>
+<li><a href="index.php"><img src="../img/Icon.png" width="22" height="22"></a></li>
+<li><a href="../PHP/perfil.php">PERFIL</a></li>
+<li><a href="">MINHA LISTA</a></li>
+<li><a href="sortear.php">SORTEAR</a></li>
+</ul>
+</div>
+</nav>
+
+</div>
+
+<div class="texto-img">
+    <div class="linha"></div>
+<p><b>Opa!</b> É aqui que você pode salvar suas músicas para consultá-las depois, assim como uma outra playlist qualquer.<br>
+Para isso, basta preencher as informações pedidas no formulário abaixo e elas serão salvas em um banco de dados e poderão ser consultadas 
+via gênero, nome ou instrumento!</p>
+</div>
+
+</header>
+<main>
+<div class="linha"></div>
+
+<div class="setor">
+    <a href="index.php"><img src="../img/seta.png" class="seta"></a>
+    <div class="area_form">
+<form action="../PHP/incluir.php" id="form" class="form" method="POST">
+<fieldset>
+    <legend>Formulário Inclusão</legend>
+    <div class="top-label"><label>Nome da Música:</label><input class="campo_nome" name="nome" type="text"><br></div>
+    <div class="top-label"><label>Autor:</label><input class="campo_autor" name="autor" type="text"><br></div>
+    <div class="top-label"><label>Gênero:</label><input class="campo_genero" name="genero" type="text"><br></div>
+    <div class="top-label"><label>Instrumento:</label><select name="instrumento" form="form" class="campo_instrumento">
+        <option value="violao">Violão</option>
+        <option value="guitarra">Guitarra</option>
+        <option value="baixo">Baixo</option>
+        <option value="teclado">Teclado</option>
+    </select></div><br>
+    <input class="button_submit" type="submit" value="Salvar">
+    <input class="button_submit" type="reset" value="Limpar">
+</fieldset>
+</form>
+</div>
+<a href="index.php"><input class="button_back" type="button" value="Voltar"></a>
+</div>
+
+</main>
+<footer class="rodape">
+
+    <div class="rodape-img">
+        <img src="../img/icon.png" width="76" height="76">
+    </div>
+    
+    <div class="rodape-txt">
+        <p>@2021 - REMUSIC - Seu Repertório Sempre junto à Você! - Todos os direitos reservados.</p>
+        
+        <div class="rodape-icons">
+    <a href="https://www.instagram.com/lucas.picoli/"><img src="../img/insta.png" class="icons"></a>
+    <a href="https://twitter.com/OPicoleh"><img src="../img/tt.png" class="icons"></a>
+    <a href=""><img src="../img/mail.png" class="icons"></a>
+    <a href="https://www.youtube.com/channel/UCKmK9bhq4_rk_KwWDa5ORzA"><img src="../img/yt.png" class="icons"></a>
+    </div>
+    
+    </div>
+    
+    
+    
+    </footer>
+
+</body></html>
